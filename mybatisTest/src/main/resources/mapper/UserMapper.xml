@@ -1,0 +1,10 @@
+<mapper namespace="UserMapper">
+    <select id="selectOne" paramterType="com.pub.dos.UserDo"
+            resultType="com.pub.dos.UserDo">
+        select * from user where id = #{id} and username =#{username}
+    </select>
+
+    <select id="selectList" paramterType="com.pub.dos.UserDo" resultType="com.pub.dos.UserDo">
+        select * from user
+    </select>
+</mapper>

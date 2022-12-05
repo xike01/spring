@@ -1,0 +1,11 @@
+<configuration>
+    <!--数据库连接信息-->
+    <property name="driverClass" value="com.mysql.jdbc.Driver"></property>
+    <property name="jdbcUrl" value="jdbc:mysql://192.168.3.27:4000/test?characterEncoding=utf-8"></property>
+    <property name="username" value="root"></property>
+    <property name="password" value="123"></property>
+
+    <!--引⼊sql配置信息-->
+    <mapper resource="mapper/UserMapper.xml"></mapper>
+
+</configuration>
